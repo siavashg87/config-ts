@@ -1,0 +1,42 @@
+{
+  "name": "config-ts",
+  "version": "0.0.1",
+  "description": "Lightweight typescript configuration handler, supporting config files and default values.",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/mocha": "^8.2.0",
+    "@types/node": "^14.14.20",
+    "mocha": "^8.2.1",
+    "ts-node": "^9.1.1",
+    "tslint": "^6.1.3",
+    "typescript": "^4.1.3"
+  },
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "main": "./dist/index.js",
+  "typings": "./dts/index.d.ts",
+  "scripts": {
+    "build": "rm -rf dist/* && rm -rf dts/* && tsc",
+    "test": "mocha -r ts-node/register test/**/*.test.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/siavashg87/config-ts.git"
+  },
+  "keywords": [
+    "config",
+    "config.ts",
+    "configuration",
+    "config.json",
+    "configstore",
+    "typed-config",
+    "config-file"
+  ],
+  "bugs": {
+    "url": "https://github.com/siavashg87/config-ts/issues"
+  },
+  "homepage": "https://github.com/siavashg87/config-ts#readme",
+  "author": "Siavash Goudarzi <info@siavashg.com>"
+}
