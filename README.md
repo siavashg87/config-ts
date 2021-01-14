@@ -9,13 +9,13 @@ Lightweight typescript configuration handler, supporting config files, default v
 ## Installation
 
 ```bash
-npm install config-ts
+npm install configstore-ts
 ```
 
 ### Usage
 
 ```ts
-import ConfigTS from "config-ts";
+import ConfigTS from "configstore-ts";
 
 interface IConfig {
   foo: string;
