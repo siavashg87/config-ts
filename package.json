@@ -1,5 +1,5 @@
 {
-  "name": "config-ts",
+  "name": "configstore-ts",
   "version": "0.0.1",
   "description": "Lightweight typescript configuration handler, supporting config files and default values.",
   "license": "MIT",
